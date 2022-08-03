@@ -1,4 +1,4 @@
-#cst_hunter
+#CST_picker 
 echo I hope you activated you qiime2 enviroment
 #
 qiime taxa collapse \
