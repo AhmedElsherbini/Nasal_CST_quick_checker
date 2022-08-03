@@ -25,4 +25,4 @@ cp ../get_cst.py ./
 ##################
 python3 get_cst.py -i rel-phyla-table.tsv
 ##################
-echo Can you check the folder rel-table for output
+echo Can you check the folder rel-table for output ?
