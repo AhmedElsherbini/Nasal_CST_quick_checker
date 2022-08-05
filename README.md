@@ -2,7 +2,7 @@
 
 This script aims to classify nasal microbiome samples (**based on a literature definition in an supervised fashion**). Therefore, in each sample, the scripts see the most dominant species. 
 
-**And if this most prevalent (based on relative abundance) species is**
+**And based on relative abundance, if this most prevalent species is**
 
 * _S. aureus_  ---> we conclude CST1
 
