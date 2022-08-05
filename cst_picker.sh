@@ -1,6 +1,7 @@
-#CST_picker 
-echo I hope you activated you qiime2 enviroment
-#
+#cst_hunter
+echo This supervised CST_picker and I hope you activated you qiime2 enviroment :))
+echo witten by : Ahmed M. A.Elsherbini 2021-2022
+######################
 qiime taxa collapse \
   --i-table feature-table.qza \
   --i-taxonomy taxonomy.qza \
@@ -25,4 +26,7 @@ cp ../get_cst.py ./
 ##################
 python3 get_cst.py -i rel-phyla-table.tsv
 ##################
-echo Can you check the folder rel-table for output ?
+rm -r get_cst.py 
+rm -r feature-table.biom
+##################
+echo Can you check the folder rel-table for output
