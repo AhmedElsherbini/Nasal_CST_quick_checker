@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Feb 28 00:42:02 2022
-
 @author: ahmed elsherbini
 """
 import pandas as pd 
@@ -59,6 +58,6 @@ rel_df.plot(kind = 'bar',legend=False,rot=0)
 plt.title("CST types")
 plt.ylabel("Relative abundace")
 
-df.to_csv('sample_cst_%s.csv'%(f_name), index=False)
-rel_df.to_csv('sample_cst_%s.csv'%(f_name), index=True)
-plt.savefig('cst_barplot_%s.png'%(f_name))   
+df.to_csv('Samples_CST.csv', index=False)
+rel_df.to_csv('CST_comp.csv', index=True)
+plt.savefig('CST_barplot.png')   
