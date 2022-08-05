@@ -18,7 +18,7 @@ This script aims to classify nasal microbiome samples (**based on a literature d
 
 * Species belong to Dolosigranulum genus -->  we conclude CST7
 
-* If something else, then we concluded that is unclassified
+* If something else, then we concluded that is unclassified CST
 
 ## Installation and Usage
 
