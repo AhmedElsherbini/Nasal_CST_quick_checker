@@ -46,6 +46,10 @@ You need to prepare the relative abundance phyla table like the example attached
 python get_cst.py -i example_rel-phyla-table.tsv
 ```
 
+The output is 3 files in output dir. One , CSV file with each sample with it is predicted CST. Two, CSV file with CST composition. Three, barplot with relative abundace of CST.
+
+Anyhow, an example of the output is attached.
+
 ## Contributing
 
 You are welcome, please open an issue (or mail me : drahmedsherbini@yahoo.com) to discuss what you would like to change.
