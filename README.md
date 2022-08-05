@@ -26,7 +26,7 @@ In any case, you need Python3 with (pandas, seaborn, matplotlib, and argparse pa
 
 >>> If you are qiime2 user 
 
-Then, you just need the feature-table.qza and the taxonomy.qza (example attached) out of your analysis in the same dir of the bash and python script.
+Then, you just need the feature-table.qza and the taxonomy.qza (examples attached) out of your analysis in the same dir of the bash and python script.
 
 P.S. (This script was tested using qiime2 2021.11. However, I suppose it will work with other versions also)
 
