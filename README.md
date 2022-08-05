@@ -48,7 +48,7 @@ python get_cst.py -i example_rel-phyla-table.tsv
 
 ## Contributing
 
-You are welcome, please open an issue (or Email me : drahmedsherbini@yahoo.com) to discuss what you would like to change.
+You are welcome, please open an issue (or mail me : drahmedsherbini@yahoo.com) to discuss what you would like to change.
 
 
 ## License
