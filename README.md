@@ -22,7 +22,7 @@ This script aims to classify nasal microbiome samples (**based on a literature d
 
 ## Installation and Usage
 
-In any case, You need Python3 with (pandas, seaborn, matplotlib, and argparse packages)
+In any case, you need Python3 with (pandas, seaborn, matplotlib, and argparse packages)
 
 >>> If you are qiime2 user 
 
