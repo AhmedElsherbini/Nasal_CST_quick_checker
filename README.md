@@ -4,21 +4,21 @@ This script aims to classify nasal microbiome samples (**based on a literature d
 
 **And if this dominant species is**
 
-_S. aureus_  ---> we conclude CST1
+* _S. aureus_  ---> we conclude CST1
 
-Species belong to Enterobacteriaceae family --> we conclude CST2
+* Species belong to Enterobacteriaceae family --> we conclude CST2
 
-_S. epidermidis_ --> we conclude CST3
+* _S. epidermidis_ --> we conclude CST3
 
-Species belong to the Cutibacterium genus --> we conclude CST4
+* Species belong to the Cutibacterium genus --> we conclude CST4
 
-Species belong to Corynebacterium genus --> we conclude CST5
+* Species belong to Corynebacterium genus --> we conclude CST5
 
-Species belong Moraxella genus -->  we conclude CST6
+* Species belong Moraxella genus -->  we conclude CST6
 
-Species belong to Dolosigranulum genus -->  we conclude CST7
+* Species belong to Dolosigranulum genus -->  we conclude CST7
 
-if something else, then we concluded that is unclassified
+* if something else, then we concluded that is unclassified
 
 ## Installation and Usage
 
