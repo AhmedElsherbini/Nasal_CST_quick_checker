@@ -36,7 +36,7 @@ conda activate qiime2-2021.11
 
 bash cst_picker.sh
 ```
-that's it.
+that's it!
 
 >>> If you are not qiime2 user
 
