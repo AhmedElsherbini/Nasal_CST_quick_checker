@@ -40,7 +40,7 @@ that's it!
 
 >>> If you are not qiime2 user
 
-You need to prepare the relative abundance phyla table like the example attached.
+You need to prepare the relative abundance phyla table like the example attached. Then, use it with this python script.
 
 ```python
 python get_cst.py -i example_rel-phyla-table.tsv
