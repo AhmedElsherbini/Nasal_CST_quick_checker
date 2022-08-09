@@ -29,4 +29,4 @@ python3 get_cst.py -i rel-phyla-table.tsv
 rm -r get_cst.py 
 rm -r feature-table.biom
 ##################
-echo Can you check the folder rel-table for output
+echo  You can check the folder rel-table for output
