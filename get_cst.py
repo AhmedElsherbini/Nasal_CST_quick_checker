@@ -13,7 +13,7 @@ from matplotlib.pyplot import  bar_label
 import argparse
 
 ##################################################################
-my_parser = argparse.ArgumentParser(description='Welcome to our tool, make sure your files exsit in the data folder!')
+my_parser = argparse.ArgumentParser(description='Make sure your files exsit in the data folder!')
 my_parser.add_argument('-i','--input',
                        action='store',
                        metavar='input',
