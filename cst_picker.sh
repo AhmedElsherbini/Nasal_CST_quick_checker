@@ -1,5 +1,5 @@
 #cst_hunter
-echo This is supervised CST_picker and I hope you activated you qiime2 enviroment 
+echo This is supervised CST_picker and I hope you have activated you qiime2 enviroment 
 echo written by : Ahmed Elsherbini 2021-2022
 ######################
 qiime taxa collapse \
