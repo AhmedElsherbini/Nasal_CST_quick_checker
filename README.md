@@ -1,6 +1,6 @@
 ## CST_Picker
 
-This script aims to classify nasal microbiome samples (**based on the literature definition (Liu et al. Sci. Adv. 2015,) in an supervised fashion**). Therefore, in each sample, the scripts extracts the most dominant species. 
+This script aims to classify nasal microbiome samples (**based on the literature definition (Liu et al. Sci. Adv. 2015,) in a supervised fashion**). Therefore, in each sample, the scripts extract the most dominant species. 
 
 **And based on relative abundance, if the  top/most prevalent species is**
 
@@ -20,7 +20,7 @@ This script aims to classify nasal microbiome samples (**based on the literature
 
 * If something else, then we conclude that is an unclassified CST
 
-**As mentioned before, using top species to define CST can be reductiveg in some cases.Therefore, I would recommend beside this tool, look at the Beta-diversity metric Weighted Unifrac (in a 2D fashion) using qiime2 (not phyloseq!).**
+**As mentioned before, using top species to define CST can be reductive in some cases. Therefore, I would recommend beside this tool, looking at the Beta-diversity metric Weighted Unifrac (in a 2D fashion) using qiime2 (not phyloseq!).**
 
 ## Installation and Usage
 
@@ -28,7 +28,7 @@ This script aims to classify nasal microbiome samples (**based on the literature
 
 Then, you just need the feature-table.qza and the taxonomy.qza (examples attached) out of your analysis in the same dir of the bash and python script.
 
-P.S. (This tool was tested using different qiime2 versions  (2021.11 , 2021.8 and 2020.02) versions. However, I suppose it will work with other versions also). Of note, it was designed to run on Linux .but it also worked on the terminal of linux subsystem windows.
+P.S. (This tool was tested using different qiime2 versions  (2021.11, 2021.8, and 2020.02) versions. However, I suppose it will work with other versions also). Of note, it was designed to run on Linux .but it also worked on the terminal of Linux subsystem windows.
 
 
 ```
@@ -48,7 +48,7 @@ You need to prepare the relative abundance phyla table the same as the example a
 python get_cst.py -i example_rel-phyla-table.tsv
 ```
 
-The output in output folder (named rel-table) is 3 files in output dir. 1, CSV file with each sample with it is predicted CST. 2, CSV file with CST composition. 3, barplot with the relative abundance of CST.
+The output in the output folder (named rel-table) is 3 files in the output dir. 1, CSV file with each sample with it is predicted CST. 2, CSV file with CST composition. 3, barplot with the relative abundance of CST.
 
 (P.S, if you are qiime2 user you will also get the rel-phyla-table.tsv for relative abundance)
 
@@ -61,4 +61,4 @@ You are welcome, please open an issue (or mail me : drahmedsherbini@yahoo.com) t
 
 
 ## License
-This tool is part of a paper XXX please cite us.
+This tool is part of paper XXX please cite us.
