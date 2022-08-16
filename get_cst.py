@@ -9,7 +9,7 @@ import pandas as pd
 import seaborn as sns_plot
 import seaborn as sns
 import matplotlib.pyplot as plt
-from matplotlib.pyplot import  bar_label
+#from matplotlib.pyplot import  bar_label
 import argparse
 
 ##################################################################
