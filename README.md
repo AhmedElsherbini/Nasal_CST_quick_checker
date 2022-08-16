@@ -20,6 +20,8 @@ This script aims to classify nasal microbiome samples (**based on the reductive 
 
 * If something else, then we conclude that is an unclassified CST
 
+**As mentioned before, using top species to define CST can be over-simplifying in some cases.Therefore, I would recommend beside using this tool, look at the Beta-diversity metric 2D Weighted Unifrac using qiime2 (not phyloseq) **
+
 ## Installation and Usage
 
 >>> If you are qiime2 user 
