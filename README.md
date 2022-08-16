@@ -1,6 +1,6 @@
 ## CST_Picker
 
-This script aims to classify nasal microbiome samples (**based on the reductive literature definition (Liu et al. Sci. Adv. 2015,) in an supervised fashion**). Therefore, in each sample, the scripts extracts the most dominant species. 
+This script aims to classify nasal microbiome samples (**based on the literature definition (Liu et al. Sci. Adv. 2015,) in an supervised fashion**). Therefore, in each sample, the scripts extracts the most dominant species. 
 
 **And based on relative abundance, if the  top/most prevalent species is**
 
@@ -20,7 +20,7 @@ This script aims to classify nasal microbiome samples (**based on the reductive 
 
 * If something else, then we conclude that is an unclassified CST
 
-**As mentioned before, using top species to define CST can be over-simplifying in some cases.Therefore, I would recommend beside this tool, look at the Beta-diversity metric Weighted Unifrac (in a 2D fashion) using qiime2 (not phyloseq!).**
+**As mentioned before, using top species to define CST can be reductiveg in some cases.Therefore, I would recommend beside this tool, look at the Beta-diversity metric Weighted Unifrac (in a 2D fashion) using qiime2 (not phyloseq!).**
 
 ## Installation and Usage
 
