@@ -1,6 +1,6 @@
 ## CST_Picker
 
-This script aims to classify nasal microbiome samples (**based on the reductive literature definition in an supervised fashion**). Therefore, in each sample, the scripts extracts the most dominant species. 
+This script aims to classify nasal microbiome samples (**based on the reductive literature definition (Liu et al. Sci. Adv. 2015,) in an supervised fashion**). Therefore, in each sample, the scripts extracts the most dominant species. 
 
 **And based on relative abundance, if the  top/most prevalent species is**
 
