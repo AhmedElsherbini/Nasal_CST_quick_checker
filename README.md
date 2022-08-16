@@ -38,7 +38,7 @@ that's it!
 
 >>> If you are not qiime2 user
 
-Then nou need Python3 with (pandas, seaborn, matplotlib, and argparse packages). 
+Then you need Python3 with (pandas, seaborn, matplotlib, and argparse packages). 
 
 You need to prepare the relative abundance phyla table the same as the example attached. Then, use it with this python script.
 
