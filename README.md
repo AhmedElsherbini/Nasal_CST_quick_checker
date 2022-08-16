@@ -1,6 +1,6 @@
 ## CST_Picker
 
-This script aims to classify nasal microbiome samples (**based on a literature definition in an supervised fashion**). Therefore, in each sample, the scripts extracts the most dominant species. 
+This script aims to classify nasal microbiome samples (**based on the reductive literature definition in an supervised fashion**). Therefore, in each sample, the scripts extracts the most dominant species. 
 
 **And based on relative abundance, if the  top/most prevalent species is**
 
@@ -22,16 +22,14 @@ This script aims to classify nasal microbiome samples (**based on a literature d
 
 ## Installation and Usage
 
-In any case, you need Python3 with (pandas, seaborn, matplotlib, and argparse packages)
-
 >>> If you are qiime2 user 
 
 Then, you just need the feature-table.qza and the taxonomy.qza (examples attached) out of your analysis in the same dir of the bash and python script.
 
-P.S. (This script was tested using qiime2 2021.11. However, I suppose it will work with other versions also)
+P.S. (This tool was tested using different qiime2 versions  (2021.11 , 2021.8 and 2020.02) versions. However, I suppose it will work with other versions also). Of note, it was designed to run on Linux .but it also worked on the terminal of linux subsystem windows.
 
 
-```python
+```
 conda activate qiime2-2021.11
 
 bash cst_picker.sh
@@ -40,7 +38,9 @@ that's it!
 
 >>> If you are not qiime2 user
 
-You need to prepare the relative abundance phyla table like the example attached. Then, use it with this python script.
+Then nou need Python3 with (pandas, seaborn, matplotlib, and argparse packages). 
+
+You need to prepare the relative abundance phyla table the same as the example attached. Then, use it with this python script.
 
 ```python
 python get_cst.py -i example_rel-phyla-table.tsv
