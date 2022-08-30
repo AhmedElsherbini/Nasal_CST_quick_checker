@@ -14,7 +14,7 @@ This script aims to classify nasal microbiome samples (**based on the literature
 
 * Species belong to Corynebacterium genus --> we conclude CST5
 
-* Species belong Moraxella genus -->  we conclude CST6
+* Species belong to Moraxella genus -->  we conclude CST6
 
 * Species belong to Dolosigranulum genus -->  we conclude CST7
 
