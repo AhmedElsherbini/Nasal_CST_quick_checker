@@ -18,9 +18,9 @@ This script aims to classify nasal microbiome samples (**based on the literature
 
 * Species belong to Dolosigranulum genus -->  we conclude CST7
 
-* If something else, then we conclude that is an unclassified CST
+* If something else, then we conclude that is an unclassified CST (and this case it is important to look how they cluster in unsupervised fashion).
 
-**As mentioned before, using top species to define CST can be reductive in some cases. Therefore, I would recommend beside this tool, looking at the Beta-diversity metric Weighted Unifrac (in a 2D fashion) using qiime2 (not phyloseq!).**
+**As mentioned before, therefore, It is important beside this tool, to look at the Beta-diversity metric Weighted Unifrac using qiime2 (not phyloseq!) or using Vegan package in R.**
 
 ## Installation and Usage
 
