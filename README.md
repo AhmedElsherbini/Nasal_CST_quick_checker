@@ -48,7 +48,7 @@ You need to prepare the relative abundance phyla table the same as the example a
 python get_cst.py -i example_rel-phyla-table.tsv
 ```
 
-The output in the output folder (named rel-table) is 3 files in the output dir. 1, CSV file with each sample with it is predicted CST. 2, CSV file with CST composition. 3, barplot with the relative abundance of CST.
+The output is a folder (named rel-table) within this folder you have 3 files. Those files are  1, CSV file with each sample with it is predicted CST. 2, CSV file with CST composition. 3, barplot with the relative abundance of CST.
 
 (P.S, if you are qiime2 user you will also get the rel-phyla-table.tsv for relative abundance)
 
