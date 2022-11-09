@@ -28,7 +28,7 @@ This tool was tested using different qiime2 (2021.11, 2021.8, and 2020.02) versi
 
 >>> If you are qiime2 user 
 
-Then, you just need the feature-table.qza and the taxonomy.qza (examples attached) out of your analysis in the same dir of the bash and python script.
+Then, you just need the feature-table.qza and the taxonomy.qza (examples attached) out of your analysis. And put them in the same dir of the bash and python script.
 
 
 ```
