@@ -24,11 +24,11 @@ This script aims to classify nasal microbiome samples (**based on the literature
 
 ## Installation and Usage
 
+This tool was tested using different qiime2 (2021.11, 2021.8, and 2020.02) versions. However, I suppose it will work with other versions also. Of note, it was designed to run on Linux. But, it worked also on the terminal of Linux subsystem Windows.
+
 >>> If you are qiime2 user 
 
 Then, you just need the feature-table.qza and the taxonomy.qza (examples attached) out of your analysis in the same dir of the bash and python script.
-
-P.S. (This tool was tested using different qiime2 versions  (2021.11, 2021.8, and 2020.02) versions. However, I suppose it will work with other versions also). Of note, it was designed to run on Linux. But, it also worked on the terminal of Linux subsystem Windows.
 
 
 ```
