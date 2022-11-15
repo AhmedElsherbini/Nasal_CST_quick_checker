@@ -42,7 +42,7 @@ that's it!
 
 Then you need Python3 with (pandas, seaborn, matplotlib, and argparse packages). 
 
-You need to prepare the relative abundance phyla table the same as the example attached. Then, use it with this python script.
+You need to prepare the relative abundance phyla table the same as the example tab seperated file attached. Then, use it with this python script.
 
 ```python
 python get_cst.py -i example_rel-phyla-table.tsv
