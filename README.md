@@ -62,3 +62,9 @@ You are welcome, please open an issue (or mail me : drahmedsherbini@yahoo.com) t
 
 ## License
 If you find this work useful, please [cite us](https://www.biorxiv.org/content/10.1101/2022.08.31.505993v1.full).
+
+## The code for other parts of the paper ?
+
+[Here](https://github.com/AhmedElsherbini/R-code-for-RVD-et-al.-2022)
+
+
