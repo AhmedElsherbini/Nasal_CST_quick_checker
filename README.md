@@ -24,7 +24,7 @@ This script aims to classify nasal microbiome samples (**based on the literature
 
 ## Installation and Usage
 
-This tool was tested using different qiime2 (2021.11, 2021.8, and 2020.02) versions. However, I suppose it will work with other versions also. Of note, it was designed to run on Linux. But, it worked also on the terminal of Windows Subsystems Linux (WSL).
+This tool was tested using different QIIME 2 (2021.11, 2021.8, and 2020.02) versions. However, I suppose it will work with other versions also. Of note, it was designed to run on Linux. But, it worked also on the terminal of Windows Subsystems Linux (WSL).
 
 >>> If you are QIIME 2 user 
 
