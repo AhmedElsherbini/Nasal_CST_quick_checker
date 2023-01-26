@@ -26,7 +26,7 @@ This script aims to classify nasal microbiome samples (**based on the literature
 
 This tool was tested using different qiime2 (2021.11, 2021.8, and 2020.02) versions. However, I suppose it will work with other versions also. Of note, it was designed to run on Linux. But, it worked also on the terminal of Windows Subsystems Linux (WSL).
 
->>> If you are qiime2 user 
+>>> If you are QIIME 2 user 
 
 Then, you just need the feature-table.qza and the taxonomy.qza (examples attached) out of your analysis. And put them in the same dir of the bash and python script.
 
@@ -38,7 +38,7 @@ bash cst_picker.sh
 ```
 that's it!
 
->>> If you are not qiime2 user
+>>> If you are not QIIME 2 user
 
 Then you need Python3 with (pandas, seaborn, matplotlib, and argparse packages). 
 
@@ -50,7 +50,7 @@ python get_cst.py -i example_rel-phyla-table.tsv
 
 The output is a folder (named rel-table) within this folder you have 3 files. Those files are  1, CSV file with each sample with it is predicted CST. 2, CSV file with CST composition. 3, barplot with the relative abundance of CST.
 
-(P.S, if you are qiime2 user you will also get the rel-phyla-table.tsv for relative abundance)
+(P.S, if you are QIIME 2 user you will also get the rel-phyla-table.tsv for relative abundance)
 
 Anyhow, an example of the output folder (rel-table) is attached.
 
