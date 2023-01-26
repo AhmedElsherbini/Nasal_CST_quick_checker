@@ -62,7 +62,7 @@ You are welcome, please open an issue (or mail me : drahmedsherbini@yahoo.com) t
 
 ## License
 
-This work is part of paper named "Targeting of the human nasal microbiota by secretory IgA antibodies"
+This work is part of paper named **Targeting of the human nasal microbiota by secretory IgA antibodies**
 
 If you find this work useful, please [cite us](https://www.biorxiv.org/content/10.1101/2022.08.31.505993v1.full).
 
