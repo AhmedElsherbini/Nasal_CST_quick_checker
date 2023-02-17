@@ -56,8 +56,8 @@ rel_df = pd.DataFrame(df["CST"].value_counts(normalize=True))
 
 rel_df.plot(kind = 'bar',legend=False,rot=0)
 #plt.xticks(rotation=30, horizontalalignment="center")
-plt.title("CST types")
-plt.ylabel("Relative abundace")
+plt.title("CST_types")
+plt.ylabel("Relative_abundace")
 
 df.to_csv('Samples_CST.csv', index=False)
 rel_df.to_csv('CST_comp.csv', index=True)
