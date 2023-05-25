@@ -20,7 +20,7 @@ This script aims to classify nasal microbiome samples (**based on the literature
 
 * If something else, then we conclude that is an unclassified CST (in this case, it is important to look how they cluster in unsupervised fashion).
 
-**As mentioned before,it is important beside this tool, to look at the beta-diversity metric Weighted Unifrac using QIIME 2 ([not phyloseq](https://github.com/joey711/phyloseq/issues/956)!) or using Vegan package in R.**
+**As mentioned before,it is important beside this tool, to look at the beta-diversity metric Weighted Unifrac using QIIME 2 ([not phyloseq](https://github.com/joey711/phyloseq/issues/956)!).
 
 ## Installation and Usage
 
