@@ -1,7 +1,7 @@
 ## Nasal_microbiome_CST_quick_checker
 
 
-This script aims to classify nasal microbiome samples (**based on the literature definition [(Liu et al. Sci. Adv. 2015)](https://www.science.org/doi/10.1126/sciadv.1400216) in a supervised fashion**). Therefore, in each sample, the scripts extract the most dominant species. 
+This script aims to classify nasal microbiome samples (**based on the literature definition [(Liu et al. Sci. Adv. 2015)](https://www.science.org/doi/10.1126/sciadv.1400216) and in a supervised fashion**). Therefore, in each sample, the scripts extract the most dominant species. 
 
 **And based on relative abundance, if the  top/most prevalent species is**
 
