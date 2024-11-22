@@ -1,5 +1,6 @@
 ## Nasal_microbiome_CST_quick_checker
 
+**Kindly if you find this repo useful, can you star and cite this repo**
 
 This script aims to classify nasal microbiome samples (**based on the literature definition [(Liu et al. Sci. Adv. 2015)](https://www.science.org/doi/10.1126/sciadv.1400216) and in a supervised fashion**). Therefore, in each sample, the scripts extract the most dominant species. 
 
